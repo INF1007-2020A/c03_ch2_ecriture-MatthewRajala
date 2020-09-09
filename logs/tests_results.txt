@@ -1,16 +1,6 @@
-test_upper_case_names (__main__.TestExercice) ... ERROR
-
-======================================================================
-ERROR: test_upper_case_names (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 17, in test_upper_case_names
-    output = list(map(exercice.majuscule, altered_words))
-  File "/home/runner/work/c03_ch2_ecriture-MatthewRajala/c03_ch2_ecriture-MatthewRajala/exercice.py", line 7, in majuscule
-    codeDec = ord(letter)
-NameError: name 'letter' is not defined
+test_upper_case_names (__main__.TestExercice) ... ok
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.001s
+Ran 1 test in 0.000s
 
-FAILED (errors=1)
+OK
