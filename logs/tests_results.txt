@@ -7,8 +7,8 @@ Traceback (most recent call last):
   File "test_exercice.py", line 17, in test_upper_case_names
     output = list(map(exercice.majuscule, altered_words))
   File "/home/runner/work/c03_ch2_ecriture-MatthewRajala/c03_ch2_ecriture-MatthewRajala/exercice.py", line 7, in majuscule
-    lettre += 32
-TypeError: must be str, not int
+    codeDec = ord(letter)
+NameError: name 'letter' is not defined
 
 ----------------------------------------------------------------------
 Ran 1 test in 0.001s
