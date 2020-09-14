@@ -6,7 +6,7 @@ FAIL: test_upper_case_names (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 21, in test_upper_case_names
     'Toutes les lettres doivent être en majuscule.'
-AssertionError: Lists differ: ['\x8e\x8f\x92\x84', '\x81\x8c\x83\x8f\x8f\[249 chars]x94'] != ['NORD', 'ALCOOL', 'NERVEUX', 'EXAMEN', 'SA[57 chars]BET']
+AssertionError: Lists differ: ['\x8e\x8f\x92\x84', '\x81\x8c\x83\x8f\x8f\[228 chars]x94'] != ['NORD', 'ALCOOL', 'NERVEUX', 'EXAMEN', 'SA[48 chars]BET']
 
 First differing element 0:
 '\x8e\x8f\x92\x84'
@@ -17,7 +17,6 @@ First differing element 0:
 -  '\x8e\x85\x92\x96\x85\x95\x98',
 -  '\x85\x98\x81\x8d\x85\x8e',
 -  '\x93\x81\x82\x8f\x94',
--  '\x95\x8e\x89\x94ĉ',
 -  '\x84\x89\x96\x85\x92\x94\x89\x92',
 -  '\x81\x93\x93\x8f\x83\x89\x81\x94\x89\x8f\x8e',
 -  '\x90\x8c\x95\x89\x85',
@@ -27,7 +26,6 @@ First differing element 0:
 +  'NERVEUX',
 +  'EXAMEN',
 +  'SABOT',
-+  'UNITÉ',
 +  'DIVERTIR',
 +  'ASSOCIATION',
 +  'PLUIE',
